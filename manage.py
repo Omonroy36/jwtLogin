@@ -26,7 +26,7 @@ db.init_app(app)
 jwt = JWTManager(app)
 bcrypt = Bcrypt(app)
 Migrate = Migrate(app,db)
-CORS(app) 
+#CORS(app) 
 
 
 Manager = Manager(app)
